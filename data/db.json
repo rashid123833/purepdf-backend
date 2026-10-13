@@ -1,0 +1,117 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_rashid",
+      "name": "Rashid (Admin)",
+      "email": "admin@purepdf.store",
+      "passwordHash": "$2b$10$1pXFXZ5q.GHuIaHz1AHD3up4JONUtYJcrl9F.zaOZpeaJPvO0gtA6",
+      "role": "admin",
+      "plan": "pro",
+      "pdfOpsCount": 15,
+      "aiQueriesCount": 42,
+      "createdAt": "2026-10-13T09:39:18.644Z"
+    },
+    {
+      "id": "usr_demo_purepdf",
+      "name": "Demo User",
+      "email": "demo@purepdf.store",
+      "passwordHash": "$2b$10$fqN7dcX09SP7slovHFqI6ujRtiM4bXTLFj7Mwu.lA1zjlc7.5t7HG",
+      "role": "user",
+      "plan": "free",
+      "pdfOpsCount": 1,
+      "aiQueriesCount": 2,
+      "createdAt": "2026-10-13T09:39:18.645Z"
+    },
+    {
+      "id": "usr_admin_001",
+      "name": "Genius Admin",
+      "email": "admin@pdfgenius.ai",
+      "passwordHash": "$2b$10$0Zp0ICERFOhP21GGtiy4se28MctCsvFmyFbPTuexl6kzOAjAs9MpW",
+      "role": "admin",
+      "plan": "pro",
+      "pdfOpsCount": 42,
+      "aiQueriesCount": 88,
+      "createdAt": "2026-09-12T11:56:02.842Z"
+    },
+    {
+      "id": "usr_demo_002",
+      "name": "Alex Johnson",
+      "email": "demo@pdfgenius.ai",
+      "passwordHash": "$2b$10$M3Tl4jvrbBaDblLaa5AoluQVYfb8JyfyFnpzjhX/AwY.qec8dolX6",
+      "role": "user",
+      "plan": "free",
+      "pdfOpsCount": 1,
+      "aiQueriesCount": 2,
+      "createdAt": "2026-10-07T11:56:02.842Z"
+    }
+  ],
+  "history": [
+    {
+      "id": "hist_1791806201433_f194g",
+      "userId": "usr_demo_002",
+      "toolName": "AI PDF Summarizer",
+      "fileName": "contract.pdf",
+      "fileSize": 265,
+      "resultSummary": "AI Executive summary generated with key findings and next steps",
+      "timestamp": "2026-10-12T11:56:41.433Z"
+    },
+    {
+      "id": "hist_1791806176130_i0jhvs",
+      "userId": "usr_demo_002",
+      "toolName": "Add Watermark",
+      "fileName": "sample_doc.pdf",
+      "fileSize": 1333,
+      "resultSummary": "Watermarked with text \"CONFIDENTIAL\"",
+      "timestamp": "2026-10-12T11:56:16.130Z",
+      "downloadName": "watermarked_sample_doc.pdf"
+    },
+    {
+      "id": "hist_001",
+      "userId": "usr_demo_002",
+      "toolName": "Compress PDF",
+      "fileName": "quarterly_report_2026.pdf",
+      "fileSize": 4200100,
+      "resultSummary": "Compressed by 62.4% (saved 2.6 MB)",
+      "timestamp": "2026-10-11T11:56:02.842Z"
+    },
+    {
+      "id": "hist_002",
+      "userId": "usr_demo_002",
+      "toolName": "AI PDF Summarizer",
+      "fileName": "quarterly_report_2026.pdf",
+      "fileSize": 4200100,
+      "resultSummary": "Executive summary generated: 5 key insights, 4 financial metrics",
+      "timestamp": "2026-10-11T23:56:02.842Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "txn_1791806206482_fv8uv",
+      "userId": "usr_demo_002",
+      "userEmail": "demo@pdfgenius.ai",
+      "amount": 109,
+      "currency": "INR",
+      "status": "completed",
+      "paymentMethod": "UPI",
+      "transactionRef": "UPI/DEMO/20261012/99001",
+      "timestamp": "2026-10-12T11:56:46.482Z"
+    },
+    {
+      "id": "txn_init_001",
+      "userId": "usr_admin_001",
+      "userEmail": "admin@pdfgenius.ai",
+      "amount": 109,
+      "currency": "INR",
+      "status": "completed",
+      "paymentMethod": "UPI",
+      "transactionRef": "UPI/20261012/88392100",
+      "timestamp": "2026-09-12T11:56:02.842Z"
+    }
+  ],
+  "settings": {
+    "freePdfOpsLimit": 3,
+    "freeAiQueriesLimit": 5,
+    "proPriceInr": 109,
+    "announcement": "Welcome to PDF Genius AI! High-speed PDF processing & Gemini-powered intelligence."
+  }
+}

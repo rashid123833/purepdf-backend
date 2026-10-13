@@ -1,0 +1,6 @@
+{
+  "name": "PDF Genius AI",
+  "description": "AI-Powered PDF SaaS Suite with Merge, Split, Compress, Watermark, Convert, Chat with PDF, Summarizer, and Pro Workflow Tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
